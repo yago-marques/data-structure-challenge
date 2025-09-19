@@ -1,0 +1,182 @@
+# Data Structure Challenger - .gitignore
+
+# Executáveis compilados
+detective_quest
+detective_quest_pistas  
+detective_quest_mestre
+
+# Arquivos objeto
+*.o
+*.obj
+
+# Arquivos de debug
+*.dSYM/
+*.dSYM
+*.dwarf
+
+# Arquivos temporários do compilador
+*.tmp
+*.temp
+
+# Arquivos de log
+*.log
+
+# Arquivos de backup do editor
+*~
+*.swp
+*.swo
+.*.swp
+.*.swo
+
+# Arquivos do Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Arquivos do vim
+*.vim
+.*.vim
+
+# Arquivos do emacs
+.#*
+\#*#
+
+# Arquivos do sistema macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Arquivos do sistema Linux
+*~
+.directory
+
+# Arquivos do sistema Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Diretórios de build
+build/
+Build/
+BUILD/
+
+# Arquivos de cache
+*.cache
+
+# Arquivos de profiling
+gmon.out
+*.gcno
+*.gcda
+*.gcov
+
+# Arquivos de valgrind
+vgcore.*
+valgrind-out.*
+
+# Arquivos de core dump
+core
+core.*
+
+# Arquivos de input/output de teste
+input.txt
+output.txt
+test_*.txt
+
+# Arquivos temporários de desenvolvimento
+*.test
+test
+temp/
+tmp/
+
+# Arquivos específicos do projeto (caso sejam gerados dinamicamente)
+pistas_coletadas.txt
+relatorio_investigacao.txt
+suspeitos_analysis.txt
+
+# Arquivos de configuração local (se houver)
+config.local
+.env.local
+
+# Diretórios de documentação gerada automaticamente
+docs/build/
+documentation/generated/
+
+# Arquivos de performance profiling
+*.prof
+perf.data*
+
+# Arquivos de análise estática
+*.sarif
+analysis/
+
+# Binários e bibliotecas específicas
+lib/
+libs/
+*.a
+*.so
+*.dll
+*.dylib
+
+# Arquivos de cobertura de código
+coverage/
+*.lcov
+lcov.info
+
+# Arquivos de sanitizer
+*.san
+
+# Arquivos de CMake (caso seja usado no futuro)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile.cmake
+
+# Arquivos de IDEs específicos
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Arquivos de Xcode (macOS)
+*.xcodeproj/
+*.xcworkspace/
+
+# Arquivos de outros sistemas de build
+.ninja_deps
+.ninja_log
+build.ninja
+
+# Arquivos de documentação compilada
+*.pdf
+*.ps
+*.dvi
+
+# Arquivos de apresentação (se gerados automaticamente)
+*.ppt
+*.pptx
+
+# Diretório de assets que podem ser grandes
+assets/large/
+media/videos/
+
+# Backups automáticos
+*.backup
+*.bak
+backup/
+
+# Arquivos de instalação
+install/
+dist/
+*.rpm
+*.deb
+*.tar.gz
+*.zip
+
+# Arquivos específicos de desenvolvimento do Detective Quest
+detective_game_save.dat
+player_progress.txt
+high_scores.txt
